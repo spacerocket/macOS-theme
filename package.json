@@ -1,0 +1,21 @@
+{
+    "name": "macos-theme",
+    "displayName": "macOS-theme",
+    "description": "💅 A dark theme for Mac OS lovers!",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "MacOS Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MacOS Theme-color-theme.json"
+            }
+        ]
+    }
+}
